@@ -29,7 +29,7 @@ import * as _ from '../utils';
  * }
  */
 
-import HTMLJanitor from 'html-janitor';
+// import HTMLJanitor from 'html-janitor';
 import { BlockToolData, SanitizerConfig } from '../../../types';
 import { SavedData } from '../../../types/data-formats';
 
