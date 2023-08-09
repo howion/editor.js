@@ -66,16 +66,19 @@ export function sanitizeBlocks(
  * @returns {string} clean HTML
  */
 export function clean(taintString: string, customConfig: SanitizerConfig = {} as SanitizerConfig): string {
-  const sanitizerConfig = {
-    tags: customConfig,
-  };
+  // const sanitizerConfig = {
+  // tags: customConfig,
+  // };
 
-  /**
-   * API client can use custom config to manage sanitize process
-   */
-  const sanitizerInstance = new HTMLJanitor(sanitizerConfig);
+  // /**
+  //  * API client can use custom config to manage sanitize process
+  //  */
+  // const sanitizerInstance = new HTMLJanitor(sanitizerConfig);
 
-  return sanitizerInstance.clean(taintString);
+  // return sanitizerInstance.clean(taintString);
+
+  // customization: do not sanitize at all
+  return taintString;
 }
 
 /**
