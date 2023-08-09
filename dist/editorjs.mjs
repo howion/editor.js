@@ -97,7 +97,7 @@ function be(s, e, t = "log", o, i = "color: inherit") {
       break;
   }
   o && r.push(o);
-  const a = "Editor.js 2.28.0-rc.2", l = `line-height: 1em;
+  const a = "Editor.js 2.28.0-rc.3", l = `line-height: 1em;
             color: #006FEA;
             display: inline-block;
             font-size: 11px;
@@ -7710,7 +7710,7 @@ class ei extends T {
     }), {
       time: +/* @__PURE__ */ new Date(),
       blocks: t,
-      version: "2.28.0-rc.2"
+      version: "2.28.0-rc.3"
     };
   }
 }
@@ -9464,7 +9464,7 @@ class fi {
 class gi {
   /** Editor version */
   static get version() {
-    return "2.28.0-rc.2";
+    return "2.28.0-rc.3";
   }
   /**
    * @param {EditorConfig|string|undefined} [configuration] - user configuration
